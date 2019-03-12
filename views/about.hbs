@@ -1,0 +1,25 @@
+{{> head }}
+
+
+
+<!--Sintaxis para hacer los includes con hbs, esto se usa para los partials -->
+{{> navbar }}
+
+<div class="row">
+
+    <div class="col-8">
+        <h1>About</h1>
+    </div>
+
+    <!-- Especificamos la ruta de la imagen de esta manera por la manera en que definimos el dirname en server.js con express -->
+    <div class="col-4">
+        <img src="../bootstrap/img/baobab.jpg" alt="img-thumbnail">
+    </div>
+
+</div>
+
+
+{{> footer }}
+
+
+{{> scripts }}
