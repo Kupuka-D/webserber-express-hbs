@@ -23,7 +23,7 @@ app.set('view engine', 'hbs');
 
 //Usamos el objeto global process, si lo corremos local el puerto lo dejamos en 3000
 //y sino el valor del puerto va a estar en process.env.PORT
-const port = process.env.PORT() || 3000;
+const port = process.env.PORT || 3000;
 
 
 //Escuchando en directorio raíz
